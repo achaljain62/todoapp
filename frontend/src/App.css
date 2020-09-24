@@ -1,0 +1,94 @@
+body {
+  background: linear-gradient(90deg, #c31432, #240b36);
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+span,
+input,
+button,
+strike {
+  font-family: "Montserrat", sans-serif;
+  font-size: medium;
+  color: white !important;
+}
+
+strike {
+  color: #c31432 !important;
+}
+
+#input {
+  background-color: #181a1b;
+  border: 1px solid rgba(189, 195, 199, 0.25);
+}
+
+.flex-wrapper {
+  display: flex;
+}
+
+#task-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #181a1b;
+  box-shadow: 0px 14px 28px rgba(0, 0, 0, 0.5);
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#form-wrapper {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0rem;
+  background-color: #181a1b;
+  border-bottom: 1px solid red;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+  padding: 40px;
+}
+
+#title {
+  border-radius: 0rem;
+}
+
+#submit {
+  background-color: #11998e;
+  cursor: pointer;
+  border-radius: 0rem;
+  border: none;
+}
+
+#edit {
+  border-color: #11998e !important;
+  cursor: pointer;
+  color: black !important;
+  background-color: white;
+}
+
+#list-wrapper {
+  background-color: #181a1b;
+}
+.task-wrapper {
+  background-color: #181a1b;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(189, 195, 199, 0.25);
+  color: #203a43;
+  margin: 5px;
+  padding: 20px;
+}
+
+.task-wrapper:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#edit:hover {
+  background-color: rgba(189, 195, 199, 0.25);
+  color: white !important;
+}
